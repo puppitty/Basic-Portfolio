@@ -8,13 +8,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: #fff;
+    border-color: #ddd;
     color: #777;
     margin: 0;
     padding: 0;
-    width: 960px;
+    /* width: 960px; */
 }
 
-
+header {
+    width: 960px;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 20px;
+}
 
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,6 +32,7 @@ h1 {
     color:white;
     font-size: 24px;
     font-style: Bold;
+    /* width: 960px; */
     float: left;
     padding: 20px;
 }
@@ -35,15 +42,40 @@ nav {
     color: #888;
     float: right;
     padding: 20px;
+    /* display: inline-block; */
 }
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+l1 {
+    float: left;
+    display: inline-block;
+    text-align: center; */
+/* } */
+
+/* li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+/* li a:hover {
+    background-color: #4aaaa5; */
 
 h2 {
     clear: both;
     color: #4aaaa5;
     font-size: 22px;
+    font-style: bold;
     background-color: white;
     padding: 20px;
-
 }
 
 h3 {
@@ -55,25 +87,46 @@ h3 {
 
 }
 
+/* content {
+    width: 960px;
+    margin: 10px;
+    padding: 20px;
+} */
+
 aside {
-    float: right;
+    float: left;
+    padding: 20px;
+    width: 300px;
+    border: 1px #fff;
+    /* text-align: center; */
 }
 
 aboutme {
-    width: 650px;
-    float: right;
+    width: 630px;
+    float: left;
     margin-bottom: 20px;
+    overflow: inline;
+}
+
+img {
+    float: left;
+    margin: 0px 10px 10px 10px;
 }
 
 p {
     display: inline;
+    padding: 10px;
+    margin: 20px;
+    line-height: 1.5;
+    /* float: left; */
+    overflow: auto;
 }
 
 footer {
     clear: both;
     margin-top: 20px;
     padding: 20px;
-    border-top: #4aaaa5 10px;
+    border-top: #4aaaa5 100px;
     background-color: #666;
     color: white;
     text-align:center;
@@ -88,8 +141,8 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-    float: left;
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    /* float: left; */
 }
 
 /* Style the submit button with a specific background color etc */
